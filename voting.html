@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEAVEDA - Voting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="voting-page">
+  <div class="container">
+    <h2 class="animate-text">Cast Your Vote</h2>
+    <div class="candidates">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Candidate A">
+        <h3>Candidate A</h3>
+        <p>Party Alpha</p>
+        <button class="vote-btn" onclick="castVote('A')">Vote</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Candidate B">
+        <h3>Candidate B</h3>
+        <p>Party Beta</p>
+        <button class="vote-btn" onclick="castVote('B')">Vote</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Candidate C">
+        <h3>Candidate C</h3>
+        <p>Party Gamma</p>
+        <button class="vote-btn" onclick="castVote('C')">Vote</button>
+      </div>
+    </div>
+    <div id="thankYou" class="thank-you animate-fade"></div>
+    <a href="results.html" class="btn">View Results</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
