@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEAVEDA - Login & Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <div class="container login-container">
+    <h2 class="animate-text"><span>SEAVEDA</span> Login / Signup</h2>
+
+    <div class="forms">
+      <!-- Elector Login -->
+      <form id="electorLoginForm">
+        <h3>Elector Login</h3>
+        <input type="text" id="electorUsername" placeholder="Username" required>
+        <input type="password" id="electorPassword" placeholder="Password" required>
+        <button type="submit" class="btn">Login as Elector</button>
+      </form>
+
+      <!-- Elector Signup -->
+      <form id="electorSignupForm">
+        <h3>Elector Signup</h3>
+        <input type="text" id="newElectorUsername" placeholder="New Username" required>
+        <input type="password" id="newElectorPassword" placeholder="New Password" required>
+        <button type="submit" class="btn">Signup as Elector</button>
+      </form>
+
+      <!-- Election Officer Login -->
+      <form id="officerLoginForm">
+        <h3>Election Officer Login</h3>
+        <input type="text" id="officerUsername" placeholder="Officer Username" required>
+        <input type="password" id="officerPassword" placeholder="Officer Password" required>
+        <button type="submit" class="btn">Login as Officer</button>
+      </form>
+
+      <!-- Election Officer Signup -->
+      <form id="officerSignupForm">
+        <h3>Officer Signup</h3>
+        <input type="text" id="newOfficerUsername" placeholder="New Officer Username" required>
+        <input type="password" id="newOfficerPassword" placeholder="New Officer Password" required>
+        <button type="submit" class="btn">Signup as Officer</button>
+      </form>
+    </div>
+
+    <div class="info-section animate-fade">
+      <h3>Benefits of Voting ✅</h3>
+      <ul>
+        <li>✅ Your voice counts</li>
+        <li>✅ Shape the future of your community</li>
+      </ul>
+      <h3>Drawbacks of Wrong Voting ⚠️</h3>
+      <ul>
+        <li>⚠️ Poor candidate selection</li>
+        <li>⚠️ Unwanted policies</li>
+      </ul>
+      <h3>Precautions 🛡️</h3>
+      <ul>
+        <li>🛡️ Check candidate background</li>
+        <li>🛡️ Verify promises and policies</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
